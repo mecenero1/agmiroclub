@@ -166,11 +166,18 @@ html.house-on .eq i:nth-child(3){animation-delay:-.55s;animation-duration:1.1s}
   .carte{display:block;grid-column:3;grid-row:1;justify-self:end;width:min(100%,370px);padding:28px 26px 22px;color:var(--navy);background:var(--porcelain);border:1px solid var(--brass);outline:1px solid var(--brass);outline-offset:-7px;text-align:center}
   .marquee{margin-top:48px}
 }
+@media (min-width:900px) and (max-width:1199px){
+  .hero__grid{gap:28px}
+  .arch__frame{height:clamp(340px,46vh,480px)}
+  .carte{padding:22px 16px 18px}
+  .carte li button{font-size:16px}
+}
 .carte__title{margin:0 0 6px;font-style:italic;font-size:26px}
 .carte__rule{width:44px;height:1px;background:var(--brass);margin:0 auto 14px}
 .carte ul{list-style:none;margin:0;padding:0;text-align:left}
 .carte li button{display:flex;width:100%;align-items:baseline;gap:8px;padding:9px 0;font-size:18px;text-align:left}
-.carte li button i{flex:1;border-bottom:1px dotted var(--line-strong);transform:translateY(-4px)}
+.carte li button i{flex:1;min-width:10px;border-bottom:1px dotted var(--line-strong);transform:translateY(-4px)}
+.carte li button span:last-child{white-space:nowrap}
 .carte li button:hover span:first-child{font-style:italic}
 .carte__note{margin:14px 0 0;font-family:var(--sans);font-size:13px;opacity:.7}
 

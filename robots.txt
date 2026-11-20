@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mecenero1.github.io/leclub55/sitemap.xml

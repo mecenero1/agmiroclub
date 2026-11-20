@@ -6,7 +6,7 @@
 window.AGM = {
   brand: 'AGMIROCLUB',
   author: { name: '@mecenero', url: 'https://t.me/mecenero' }, // автор сайта
-  url: 'https://mecenero1.github.io/leclub55/agmiroclub/',
+  url: 'https://mecenero1.github.io/leclub55/',
 
   /* Контакты магазина. Пустые поля на сайте не показываются.
      Для заказов лучше почта на российском сервисе (Яндекс, Mail.ru):
